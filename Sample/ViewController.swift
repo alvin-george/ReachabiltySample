@@ -18,7 +18,7 @@ class ViewController: UIappViewController {
 		if(AppManager.sharedInstance.isReachability)
 		{
 			print("net available")
-			//call API
+			//call API from here..
 
 		} else {
 			dispatch_async(dispatch_get_main_queue()) {
